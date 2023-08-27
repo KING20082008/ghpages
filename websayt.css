@@ -115,7 +115,7 @@ div button {
     }
 }
 
-nav ul li a p {
+.glowing {
     color: #eeeeee;
     border: none;
     background-color: #2ba805;
