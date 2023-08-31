@@ -78,8 +78,8 @@ div {
 }
 
 div h1 {
-    font-size: 50px;
-    margin-bottom: 40px;
+    font-size: 5px;
+    /* margin-bottom: 40px; */
     margin-top: 263px;
     display: inline-block;
 }
