@@ -122,3 +122,22 @@ div button {
     padding: 5px;    
     animation: glowing 1300ms infinite;
 }
+.main {
+    text-align: center;
+}
+.main-text {
+    font-size: 18px;
+    color: aquamarine;
+}
+@media (min-width:481px) {
+    .main-text {
+        font-size: 22px;
+        color: red;
+    }  
+}
+@media (min-width:769px) {
+    .main-text {
+        font-size: 29px;
+        color: darkblue;
+    }  
+}
