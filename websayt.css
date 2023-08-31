@@ -14,6 +14,7 @@ section {
 
 header {
     width: 100%;
+    position: fixed;
 }
 
 nav {
@@ -79,8 +80,7 @@ div {
 
 div h1 {
     font-size: 51px;
-    /* margin-bottom: 40px; */
-    margin-top: 263px;
+    margin-top: 365px;
     display: inline-block;
 }
 
@@ -121,26 +121,30 @@ div button {
     background-color: #2ba805;
     -webkit-border-radius: 60px;
     border-radius: 60px;
-    padding: 5px;    
+    padding: 5px;
     animation: glowing 1300ms infinite;
 }
+
 .main {
     text-align: center;
     height: 100vh;
 }
+
 .main-text {
     font-size: 18px;
     color: aquamarine;
 }
+
 @media (min-width:481px) {
     .main-text {
         font-size: 22px;
         color: red;
-    }  
+    }
 }
+
 @media (min-width:769px) {
     .main-text {
         font-size: 29px;
         color: darkblue;
-    }  
+    }
 }
