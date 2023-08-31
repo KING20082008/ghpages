@@ -126,6 +126,7 @@ div button {
 }
 .main {
     text-align: center;
+    height: 100vh;
 }
 .main-text {
     font-size: 18px;
