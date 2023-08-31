@@ -6,8 +6,10 @@
 
 section {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img.jpg);
-    background-repeat: repeat-y;
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 header {
