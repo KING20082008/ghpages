@@ -123,6 +123,7 @@ div button {
     border-radius: 60px;
     padding: 5px;
     animation: glowing 1300ms infinite;
+    text-decoration: none;
 }
 
 .main {
